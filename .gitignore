@@ -5,6 +5,8 @@ gradle.properties
 /.idea
 .DS_Store
 /local.properties
+/build
+/captures
 
 # Ignore Gradle GUI config
 gradle-app.setting
