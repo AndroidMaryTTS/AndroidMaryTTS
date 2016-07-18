@@ -1,0 +1,53 @@
+*** dur_stat dump created by dur_stat_dump
+*** Flite version: flite-1.1-release December 2001
+*** 
+*** Portions Copyright 2001,2002 Sun Microsystems, Inc.
+*** Portions Copyright 1999-2001 Language Technologies Institute, 
+*** Carnegie Mellon University.
+*** All Rights Reserved.  Use is subject to license terms.
+*** 
+*** See the file "license.terms" for information on usage and
+*** redistribution of this file, and for a DISCLAIMER OF ALL 
+*** WARRANTIES.
+*** Dumped on Jan 14 2002
+uh 0.061596 0.023654
+hh 0.067775 0.021633
+ao 0.091841 0.049984
+v 0.045676 0.017954
+ih 0.062962 0.030609
+ey 0.165883 0.075700
+jh 0.083748 0.029496
+w 0.052598 0.024618
+uw 0.102018 0.047394
+ae 0.115669 0.047921
+k 0.089048 0.040764
+y 0.056909 0.027740
+l 0.065292 0.033114
+ng 0.065651 0.022119
+zh 0.152593 0.092321
+z 0.088234 0.038770
+m 0.074447 0.044589
+iy 0.126115 0.063085
+n 0.058944 0.029727
+ah 0.062256 0.029903
+er 0.100174 0.044822
+b 0.063457 0.027020
+pau 0.200000 0.100000
+aw 0.159485 0.064687
+p 0.099085 0.033806
+ch 0.135828 0.043586
+ow 0.146084 0.052605
+dh 0.035688 0.021493
+d 0.050917 0.031666
+ax 0.053852 0.033216
+r 0.052082 0.023499
+eh 0.109237 0.046925
+ay 0.151095 0.045892
+oy 0.160374 0.077629
+f 0.096548 0.028515
+sh 0.126018 0.023275
+s 0.108565 0.041973
+g 0.077797 0.027193
+th 0.116027 0.054892
+aa 0.109230 0.045992
+t 0.074067 0.037846

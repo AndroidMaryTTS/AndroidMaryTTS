@@ -1,0 +1,105 @@
+*** GPOS dump created by gpos_dump
+*** Flite version: flite-1.1-release December 2001
+*** 
+*** Portions Copyright 2001,2002 Sun Microsystems, Inc.
+*** Portions Copyright 1999-2001 Language Technologies Institute, 
+*** Carnegie Mellon University.
+*** All Rights Reserved.  Use is subject to license terms.
+*** 
+*** See the file "license.terms" for information on usage and
+*** redistribution of this file, and for a DISCLAIMER OF ALL 
+*** WARRANTIES.
+*** GPOS dumped on Jan 14 2002
+of in
+for in
+in in
+on in
+that in
+with in
+by in
+at in
+from in
+as in
+if in
+that in
+against in
+about in
+before in
+because in
+under in
+after in
+over in
+into in
+while in
+without in
+through in
+new in
+between in
+among in
+until in
+per in
+up in
+down in
+to to
+the det
+a det
+an det
+no det
+some det
+this det
+each det
+another det
+those det
+every det
+all det
+any det
+these det
+both det
+neither det
+no det
+many det
+will md
+may md
+would md
+can md
+could md
+should md
+must md
+ought md
+might md
+and cc
+but cc
+or cc
+plus cc
+yet cc
+nor cc
+who wp
+what wp
+where wp
+how wp
+when wp
+her pps
+his pps
+their pps
+its pps
+our pps
+mine pps
+is aux
+am aux
+are aux
+was aux
+were aux
+has aux
+have aux
+had aux
+be aux
+. punc
+, punc
+: punc
+; punc
+" punc
+' punc
+( punc
+? punc
+) punc
+! punc

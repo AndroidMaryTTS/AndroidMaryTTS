@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+ * The contents of this file are subject to the terms
+ * of the Common Development and Distribution License
+ * (the "License").  You may not use this file except
+ * in compliance with the License.
+ *
+ * You can obtain a copy of the license at
+ * https://jaxp.dev.java.net/CDDLv1.0.html.
+ * See the License for the specific language governing
+ * permissions and limitations under the License.
+ *
+ * When distributing Covered Code, include this CDDL
+ * HEADER in each file and include the License file at
+ * https://jaxp.dev.java.net/CDDLv1.0.html
+ * If applicable add the following below this CDDL HEADER
+ * with the fields enclosed by brackets "[]" replaced with
+ * your own identifying information: Portions Copyright
+ * [year] [name of copyright owner]
+ */
+
+/*
+ * $Id: package.html,v 1.3 2005-11-03 19:34:27 jeffsuttor Exp $
+ * %W% %E%
+ *
+ * Copyright 2005 Sun Microsystems, Inc. All Rights Reserved.
+ */
+-->
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>javax.xml.transform.stream</title>
+
+    <meta name="CVS"
+          content="$Id: package.html,v 1.3 2005-11-03 19:34:27 jeffsuttor Exp $"/>
+    <meta name="AUTHOR"
+          content="Jeff.Suttor@Sun.com"/>
+</head>
+<body>
+<p>This package implements stream- and URI- specific transformation APIs.
+</p>
+
+<p>The {@link javax.xml.transform.stream.StreamSource} class
+    provides methods for specifying {@link java.io.InputStream} input,
+    {@link java.io.Reader} input, and URL input in the form of strings. Even
+    if an input stream or reader is specified as the source,
+    {@link javax.xml.transform.stream.StreamSource#setSystemId} should still
+    be called, so that the transformer can know from where it should resolve
+    relative URIs. The public identifier is always optional: if the application
+    writer includes one, it will be provided as part of the
+    {@link javax.xml.transform.SourceLocator} information.</p>
+
+<p>The {@link javax.xml.transform.stream.StreamResult} class
+    provides methods for specifying {@link java.io.OutputStream},
+    {@link java.io.Writer}, or an output system ID, as the output of the
+    transformation result.</p>
+
+<p>Normally streams should be used rather than readers or writers, for
+    both the Source and Result, since readers and writers already have the encoding
+    established to and from the internal Unicode format. However, there are times
+    when it is useful to write to a character stream, such as when using a
+    StringWriter in order to write to a String, or in the case of reading source
+    XML from a StringReader.</p>
+</body>
+</html>

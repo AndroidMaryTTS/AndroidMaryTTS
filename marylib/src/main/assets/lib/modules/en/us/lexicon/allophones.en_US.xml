@@ -1,0 +1,51 @@
+<allophones name="sampa" features="vlng vheight vfront vrnd ctype cplace cvox" xml:lang="en-US">
+    <silence ph="_" />
+
+    <vowel ph="A" vfront="3" vheight="3" vlng="l" vrnd="-" />
+    <vowel ph="O" vfront="3" vheight="3" vlng="l" vrnd="+" />
+    <vowel ph="u" vfront="3" vheight="1" vlng="l" vrnd="+" />
+    <vowel ph="i" vfront="1" vheight="1" vlng="l" vrnd="-" />
+
+    <vowel ph="{" vfront="1" vheight="3" vlng="s" vrnd="-" />
+    <vowel ph="V" vfront="2" vheight="2" vlng="s" vrnd="-" />
+    <vowel ph="E" vfront="1" vheight="2" vlng="s" vrnd="-" />
+    <vowel ph="I" vfront="1" vheight="1" vlng="s" vrnd="-" />
+    <vowel ph="U" vfront="3" vheight="1" vlng="s" vrnd="+" />
+
+    <vowel ph="@" vfront="2" vheight="2" vlng="a" vrnd="-" />
+    <vowel ctype="r" ph="r=" vfront="2" vheight="2" vlng="a" vrnd="-" />
+
+    <vowel ph="aU" vfront="2" vheight="3" vlng="d" vrnd="-" />
+    <vowel ph="OI" vfront="3" vheight="2" vlng="d" vrnd="+" />
+    <vowel ph="@U" vfront="3" vheight="2" vlng="d" vrnd="+" />
+    <vowel ph="EI" vfront="1" vheight="2" vlng="d" vrnd="-" />
+    <vowel ph="AI" vfront="2" vheight="3" vlng="d" vrnd="-" />
+
+    <consonant cplace="l" ctype="s" cvox="-" ph="p" />
+    <consonant cplace="a" ctype="s" cvox="-" ph="t" />
+    <consonant cplace="v" ctype="s" cvox="-" ph="k" />
+    <consonant cplace="l" ctype="s" cvox="+" ph="b" />
+    <consonant cplace="a" ctype="s" cvox="+" ph="d" />
+    <consonant cplace="v" ctype="s" cvox="+" ph="g" />
+
+    <consonant cplace="p" ctype="a" cvox="-" ph="tS" />
+    <consonant cplace="p" ctype="a" cvox="+" ph="dZ" />
+
+    <consonant cplace="b" ctype="f" cvox="-" ph="f" />
+    <consonant cplace="b" ctype="f" cvox="+" ph="v" />
+    <consonant cplace="d" ctype="f" cvox="-" ph="T" />
+    <consonant cplace="d" ctype="f" cvox="+" ph="D" />
+    <consonant cplace="a" ctype="f" cvox="-" ph="s" />
+    <consonant cplace="a" ctype="f" cvox="+" ph="z" />
+    <consonant cplace="p" ctype="f" cvox="-" ph="S" />
+    <consonant cplace="p" ctype="f" cvox="+" ph="Z" />
+    <consonant cplace="g" ctype="f" cvox="-" ph="h" />
+
+    <consonant cplace="a" ctype="l" cvox="+" ph="l" />
+    <consonant cplace="l" ctype="n" cvox="+" ph="m" />
+    <consonant cplace="a" ctype="n" cvox="+" ph="n" />
+    <consonant cplace="v" ctype="n" cvox="+" ph="N" />
+    <consonant cplace="a" ctype="r" cvox="+" ph="r" />
+    <consonant cplace="l" ctype="r" cvox="+" ph="w" />
+    <consonant cplace="p" ctype="r" cvox="+" ph="j" />
+</allophones>

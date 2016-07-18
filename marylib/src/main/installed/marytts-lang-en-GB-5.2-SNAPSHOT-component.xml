@@ -1,0 +1,10 @@
+<marytts-install xmlns="http://mary.dfki.de/installer">
+    <language name="en-GB" locale="en-GB" version="5.2-SNAPSHOT">
+        <description>en-GB language component</description>
+        <license href="http://www.gnu.org/licenses/lgpl-3.0-standalone.html" />
+        <package filename="marytts-lang-en-GB-5.2-SNAPSHOT.zip" md5sum="dummy" size="0">
+            <location href="http://mary.dfki.de/download/5.2-SNAPSHOT/" />
+        </package>
+        <files>lib/marytts-lang-en-GB-5.2-SNAPSHOT.jar</files>
+    </language>
+</marytts-install>

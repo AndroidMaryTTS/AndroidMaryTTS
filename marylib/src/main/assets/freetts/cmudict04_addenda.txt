@@ -1,0 +1,62 @@
+*** [[[WDW FIXME:  this is NOT the cmudict_extensions file from Festival.
+***    Instead, it is just a copy of the original cmulex_addenda.txt file.]]]
+***
+*** Lexicon dump created by ./lex_dump
+*** Flite version: flite-1.2-release Feb 2003
+*** 
+*** Portions Copyright 2001,2002 Sun Microsystems, Inc.
+*** Portions Copyright 1999-2001 Language Technologies Institute, 
+*** Carnegie Mellon University.
+*** All Rights Reserved.  Use is subject to license terms.
+*** 
+*** See the file "license.terms" for information on usage and
+*** redistribution of this file, and for a DISCLAIMER OF ALL 
+*** WARRANTIES.
+*** Dumped on Jun  3 2003
+***ADDENDA:
+*** Lexicon name: cmu
+,p	
+.p	
+(p	
+)p	
+[p	
+]p	
+{p	
+}p	
+:p	
+;p	
+?p	
+!p	
+@n	ae1 t 
+#n	hh ae1 sh 
+$n	d aa1 l er 
+%n	p er s eh1 n t 
+^n	k eh1 r eh1 t 
+&n	ae1 m p er s ae1 n d 
+*n	ae1 s t er ih1 s k 
+|n	b aa1 r 
+\n	b ae1 k s l ae1 sh 
+=n	iy1 k w ax l z 
++n	p l ah1 s 
+~n	t ih1 l d ax 
+'p	
+`p	
+"p	
+-p	
+<p	
+>p	
+_n	ah1 n d er s k ao1 r 
+'ss	z 
+imn	ay1 m 
+doesntv	d ah1 z n t 
+youllv	y uw1 l 
+/n	s l ae1 sh 
+inn	ih n 
+ton	t ax 
+_an	ey 
+cepstraln	k eh1 p s t r ax l 
+freettsn	f r iy1 t iy t iy eh s
+jsapin	jh ey s ae1 p iy
+lameren	l ax m iy1 r
+cmun	s iy eh m y uw1
+yankelovichn	y ey1 ng k ax l ow1 v ih ch

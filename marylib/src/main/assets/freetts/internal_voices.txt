@@ -1,0 +1,8 @@
+# This file is the equivalent of voices.txt except that it resides
+# inside the freetts.jar file and is not easily edited after being
+# packaged inside the jar file.  For this reason, it is advised not to
+# put any entries here unless you are explicitly trying to package all
+# of freetts into a single jar or have a requirement that there be no
+# files outside the jar files.  An example where this would be useful
+# would be an applet where you would never want to add new voices
+# without recompiling.

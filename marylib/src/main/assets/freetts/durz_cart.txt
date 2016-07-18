@@ -1,0 +1,887 @@
+*** Cart dump created by cart_dump
+*** Flite version: flite-1.1-release December 2001
+*** 
+*** Portions Copyright 2001,2002 Sun Microsystems, Inc.
+*** Portions Copyright 1999-2001 Language Technologies Institute, 
+*** Carnegie Mellon University.
+*** All Rights Reserved.  Use is subject to license terms.
+*** 
+*** See the file "license.terms" for information on usage and
+*** redistribution of this file, and for a DISCLAIMER OF ALL 
+*** WARRANTIES.
+TOTAL 875
+NODE name = String(pau) 6
+NODE emph_sil = String(+) 3
+LEAF Float(-0.500000)
+NODE p.R:SylStructure.parent.parent.pbreak = String(BB) 5
+LEAF Float(2.000000)
+LEAF Float(0.000000)
+NODE R:SylStructure.parent.accented = String(0) 422
+NODE n.ph_ctype = String(0) 159
+NODE p.ph_vlng = String(0) 92
+NODE R:SylStructure.parent.syl_codasize < Float(1.500000) 43
+NODE p.ph_ctype = String(n) 14
+NODE ph_ctype = String(f) 13
+LEAF Float(-0.783163)
+LEAF Float(-0.222704)
+NODE ph_ctype = String(s) 20
+NODE R:SylStructure.parent.syl_break = String(2) 17
+LEAF Float(0.764459)
+NODE R:SylStructure.parent.asyl_in < Float(0.700000) 19
+LEAF Float(0.567944)
+LEAF Float(0.053027)
+NODE ph_vlng = String(l) 26
+NODE p.p.ph_vfront = String(1) 23
+LEAF Float(0.766486)
+NODE R:SylStructure.parent.syl_break = String(1) 25
+LEAF Float(0.279248)
+LEAF Float(0.056777)
+NODE p.ph_ctype = String(s) 32
+NODE seg_onsetcoda = String(coda) 29
+LEAF Float(-0.038356)
+NODE ph_ctype = String(f) 31
+LEAF Float(-0.545853)
+LEAF Float(-0.765994)
+NODE R:SylStructure.parent.parent.gpos = String(det) 38
+NODE R:SylStructure.parent.last_accent < Float(0.300000) 37
+NODE R:SylStructure.parent.sub_phrases < Float(1.000000) 36
+LEAF Float(0.160195)
+LEAF Float(0.713958)
+LEAF Float(-0.215472)
+NODE ph_ctype = String(r) 40
+LEAF Float(0.092772)
+NODE R:SylStructure.parent.asyl_in < Float(1.000000) 42
+LEAF Float(0.001328)
+LEAF Float(-0.334898)
+NODE pos_in_syl < Float(0.500000) 77
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 50
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 47
+LEAF Float(-0.041618)
+NODE R:SylStructure.parent.sub_phrases < Float(2.300000) 49
+LEAF Float(0.262952)
+LEAF Float(0.594794)
+NODE seg_onset_stop = String(0) 68
+NODE R:SylStructure.parent.position_type = String(mid) 53
+LEAF Float(-0.760444)
+NODE R:SylStructure.parent.syl_out < Float(6.800000) 67
+NODE p.p.ph_vlng = String(a) 56
+LEAF Float(-0.450449)
+NODE ph_ctype = String(f) 62
+NODE R:SylStructure.parent.sub_phrases < Float(1.300000) 59
+LEAF Float(-0.296956)
+NODE R:SylStructure.parent.syl_out < Float(2.400000) 61
+LEAF Float(0.042287)
+LEAF Float(-0.154465)
+NODE R:SylStructure.parent.syl_out < Float(3.600000) 66
+NODE R:SylStructure.parent.syl_out < Float(1.200000) 65
+LEAF Float(-0.264199)
+LEAF Float(-0.541738)
+LEAF Float(-0.166623)
+LEAF Float(-0.571730)
+NODE R:SylStructure.parent.parent.gpos = String(cc) 70
+LEAF Float(0.313289)
+NODE p.p.ph_vfront = String(1) 72
+LEAF Float(0.069582)
+NODE R:SylStructure.parent.asyl_in < Float(1.200000) 76
+NODE R:SylStructure.parent.sub_phrases < Float(2.700000) 75
+LEAF Float(-0.367088)
+LEAF Float(-0.194887)
+LEAF Float(-0.063749)
+NODE ph_ctype = String(s) 83
+NODE R:SylStructure.parent.syl_break = String(0) 82
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 81
+LEAF Float(-0.333421)
+LEAF Float(-0.165383)
+LEAF Float(-0.516332)
+NODE R:SylStructure.parent.syl_break = String(0) 87
+NODE p.ph_ctype = String(s) 86
+LEAF Float(-0.779112)
+LEAF Float(-0.337611)
+NODE pos_in_syl < Float(1.400000) 89
+LEAF Float(-0.745807)
+NODE p.ph_ctype = String(s) 91
+LEAF Float(-1.049070)
+LEAF Float(-0.914974)
+NODE R:SylStructure.parent.syl_break = String(0) 134
+NODE ph_ctype = String(n) 99
+NODE R:SylStructure.parent.position_type = String(initial) 98
+NODE pos_in_syl < Float(1.200000) 97
+LEAF Float(0.172658)
+LEAF Float(-0.101423)
+LEAF Float(-0.360092)
+NODE R:SylStructure.parent.syl_out < Float(2.900000) 115
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 108
+NODE R:SylStructure.parent.position_type = String(initial) 103
+LEAF Float(0.764189)
+NODE R:SylStructure.parent.sub_phrases < Float(3.600000) 107
+NODE ph_ctype = String(s) 106
+LEAF Float(0.555132)
+LEAF Float(0.369882)
+LEAF Float(0.666966)
+NODE seg_onsetcoda = String(coda) 114
+NODE p.ph_vlng = String(a) 113
+NODE R:SylStructure.parent.last_accent < Float(0.400000) 112
+LEAF Float(0.240634)
+LEAF Float(0.486176)
+LEAF Float(0.573811)
+LEAF Float(0.194468)
+NODE ph_ctype = String(r) 117
+LEAF Float(0.499383)
+NODE R:SylStructure.parent.last_accent < Float(0.500000) 125
+NODE R:SylStructure.parent.position_type = String(initial) 122
+NODE R:SylStructure.parent.parent.word_numsyls < Float(2.400000) 121
+LEAF Float(0.073732)
+LEAF Float(0.331014)
+NODE ph_ctype = String(s) 124
+LEAF Float(0.092930)
+LEAF Float(-0.044327)
+NODE seg_coda_fric = String(0) 131
+NODE p.ph_vlng = String(a) 128
+LEAF Float(0.517681)
+NODE R:SylStructure.parent.sub_phrases < Float(1.100000) 130
+LEAF Float(0.128316)
+LEAF Float(0.361383)
+NODE R:SylStructure.parent.last_accent < Float(1.300000) 133
+LEAF Float(0.054136)
+LEAF Float(0.246742)
+NODE pos_in_syl < Float(0.300000) 144
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 137
+LEAF Float(0.621547)
+NODE ph_ctype = String(s) 139
+LEAF Float(0.501679)
+NODE R:SylStructure.parent.sub_phrases < Float(3.300000) 143
+NODE R:SylStructure.parent.sub_phrases < Float(0.300000) 142
+LEAF Float(-0.042049)
+LEAF Float(0.183226)
+LEAF Float(0.284799)
+NODE ph_ctype = String(s) 148
+NODE p.ph_vlng = String(s) 147
+LEAF Float(-0.820934)
+LEAF Float(-0.348735)
+NODE ph_ctype = String(n) 152
+NODE R:SylStructure.parent.asyl_in < Float(1.200000) 151
+LEAF Float(-0.400920)
+LEAF Float(-0.639366)
+NODE seg_coda_fric = String(0) 154
+LEAF Float(0.364857)
+NODE pos_in_syl < Float(1.200000) 158
+NODE R:SylStructure.parent.syl_out < Float(3.400000) 157
+LEAF Float(-0.007686)
+LEAF Float(-0.197753)
+LEAF Float(-0.394632)
+NODE n.ph_ctype = String(f) 229
+NODE pos_in_syl < Float(1.500000) 214
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 169
+NODE pos_in_syl < Float(0.100000) 164
+LEAF Float(0.938841)
+NODE R:SylStructure.parent.position_type = String(initial) 166
+LEAF Float(-0.079664)
+NODE n.n.ph_vheight = String(0) 168
+LEAF Float(0.480026)
+LEAF Float(0.127175)
+NODE ph_ctype = String(r) 173
+NODE p.ph_ctype = String(s) 172
+LEAF Float(-0.708767)
+LEAF Float(-0.236212)
+NODE ph_vlng = String(a) 185
+NODE p.ph_ctype = String(r) 176
+LEAF Float(-0.273389)
+NODE R:SylStructure.parent.parent.gpos = String(in) 178
+LEAF Float(0.058134)
+NODE n.n.ph_vheight = String(0) 180
+LEAF Float(0.721904)
+NODE R:SylStructure.parent.sub_phrases < Float(2.200000) 184
+NODE p.p.ph_vfront = String(0) 183
+LEAF Float(0.016121)
+LEAF Float(0.227372)
+LEAF Float(0.445569)
+NODE ph_ctype = String(n) 191
+NODE R:SylStructure.parent.syl_break = String(1) 190
+NODE n.n.ph_vfront = String(2) 189
+LEAF Float(-0.120097)
+LEAF Float(0.219042)
+LEAF Float(0.321245)
+NODE p.ph_ctype = String(n) 193
+LEAF Float(0.134075)
+NODE p.ph_ctype = String(r) 195
+LEAF Float(-0.466418)
+NODE R:SylStructure.parent.syl_codasize < Float(1.300000) 201
+NODE R:SylStructure.parent.sub_phrases < Float(2.200000) 200
+NODE p.ph_ctype = String(s) 199
+LEAF Float(-0.425925)
+LEAF Float(-0.542809)
+LEAF Float(-0.201899)
+NODE ph_vheight = String(1) 205
+NODE n.n.ph_vheight = String(0) 204
+LEAF Float(0.209018)
+LEAF Float(-0.178136)
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.300000) 209
+NODE R:SylStructure.parent.asyl_in < Float(1.500000) 208
+LEAF Float(-0.235593)
+LEAF Float(0.126118)
+NODE p.ph_vlng = String(a) 211
+LEAF Float(-0.174812)
+NODE R:SylStructure.parent.parent.gpos = String(content) 213
+LEAF Float(-0.231509)
+LEAF Float(-0.536405)
+NODE ph_ctype = String(n) 216
+LEAF Float(0.163343)
+NODE p.ph_vlng = String(s) 220
+NODE seg_coda_fric = String(0) 219
+LEAF Float(-0.455280)
+LEAF Float(-0.099803)
+NODE ph_ctype = String(f) 222
+LEAF Float(-0.930547)
+NODE ph_ctype = String(s) 226
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(0) 225
+LEAF Float(-0.634119)
+LEAF Float(-0.760176)
+NODE R:SylStructure.parent.syl_break = String(1) 228
+LEAF Float(-0.121355)
+LEAF Float(-0.557509)
+NODE p.ph_vlng = String(0) 357
+NODE p.ph_ctype = String(r) 248
+NODE ph_vlng = String(0) 233
+LEAF Float(-0.402734)
+NODE R:SylStructure.parent.sub_phrases < Float(1.500000) 239
+NODE ph_vlng = String(s) 236
+LEAF Float(-0.988478)
+NODE n.ph_ctype = String(s) 238
+LEAF Float(-0.802536)
+LEAF Float(-0.900628)
+NODE n.n.ph_vheight = String(0) 243
+NODE ph_vheight = String(2) 242
+LEAF Float(-0.768992)
+LEAF Float(-0.574918)
+NODE ph_vheight = String(1) 245
+LEAF Float(-0.756359)
+NODE pos_in_syl < Float(0.300000) 247
+LEAF Float(-0.808937)
+LEAF Float(-0.933150)
+NODE ph_vlng = String(a) 284
+NODE ph_ctype = String(0) 281
+NODE n.ph_ctype = String(s) 264
+NODE p.ph_ctype = String(f) 257
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 254
+LEAF Float(-0.428493)
+NODE pos_in_syl < Float(0.100000) 256
+LEAF Float(0.021107)
+LEAF Float(-0.254485)
+NODE p.ph_ctype = String(s) 261
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 260
+LEAF Float(-0.389966)
+LEAF Float(0.185781)
+NODE R:SylStructure.parent.sub_phrases < Float(1.400000) 263
+LEAF Float(0.422551)
+LEAF Float(0.145576)
+NODE seg_onset_stop = String(0) 278
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(0) 271
+NODE p.p.ph_vfront = String(1) 268
+LEAF Float(-0.623190)
+NODE R:SylStructure.parent.syl_out < Float(3.600000) 270
+LEAF Float(-0.317324)
+LEAF Float(-0.591051)
+NODE R:SylStructure.parent.syl_break = String(1) 275
+NODE R:SylStructure.parent.sub_phrases < Float(2.700000) 274
+LEAF Float(-0.405607)
+LEAF Float(-0.313148)
+NODE R:SylStructure.parent.last_accent < Float(0.300000) 277
+LEAF Float(0.159416)
+LEAF Float(-0.254651)
+NODE R:SylStructure.parent.position_type = String(initial) 280
+LEAF Float(-0.799896)
+LEAF Float(-0.551309)
+NODE R:SylStructure.parent.position_type = String(final) 283
+LEAF Float(-0.707084)
+LEAF Float(-0.901874)
+NODE ph_ctype = String(s) 294
+NODE pos_in_syl < Float(1.200000) 291
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 290
+NODE p.p.ph_vfront = String(1) 289
+LEAF Float(0.196466)
+LEAF Float(0.003824)
+LEAF Float(-0.128590)
+NODE p.p.ph_vfront = String(1) 293
+LEAF Float(-0.219339)
+LEAF Float(-0.516734)
+NODE ph_vlng = String(s) 322
+NODE n.ph_ctype = String(s) 307
+NODE R:SylStructure.parent.parent.gpos = String(content) 304
+NODE R:SylStructure.parent.position_type = String(single) 299
+LEAF Float(0.159445)
+NODE R:SylStructure.parent.parent.word_numsyls < Float(3.500000) 303
+NODE R:SylStructure.parent.sub_phrases < Float(2.000000) 302
+LEAF Float(-0.419103)
+LEAF Float(-0.092856)
+LEAF Float(-0.576116)
+NODE ph_vheight = String(3) 306
+LEAF Float(-0.645830)
+LEAF Float(-0.466500)
+NODE R:SylStructure.parent.parent.gpos = String(in) 309
+LEAF Float(-0.217292)
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 311
+LEAF Float(-0.304382)
+NODE R:SylStructure.parent.parent.gpos = String(content) 319
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 316
+NODE n.ph_ctype = String(n) 315
+LEAF Float(-0.572203)
+LEAF Float(-0.240338)
+NODE R:SylStructure.parent.parent.word_numsyls < Float(2.200000) 318
+LEAF Float(-0.588171)
+LEAF Float(-0.957970)
+NODE R:SylStructure.parent.sub_phrases < Float(3.900000) 321
+LEAF Float(-0.959427)
+LEAF Float(-0.845747)
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(0) 334
+NODE p.ph_ctype = String(f) 325
+LEAF Float(-0.482247)
+NODE n.n.ph_vheight = String(1) 327
+LEAF Float(-0.632362)
+NODE ph_vlng = String(l) 331
+NODE R:SylStructure.parent.position_type = String(final) 330
+LEAF Float(-0.713117)
+LEAF Float(-0.924308)
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 333
+LEAF Float(-0.891342)
+LEAF Float(-1.152520)
+NODE p.p.ph_vlng = String(s) 338
+NODE ph_ctype = String(f) 337
+LEAF Float(-0.599624)
+LEAF Float(-0.077191)
+NODE p.ph_ctype = String(f) 346
+NODE R:SylStructure.parent.parent.gpos = String(in) 343
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 342
+LEAF Float(-1.032420)
+LEAF Float(-0.542799)
+NODE R:SylStructure.parent.syl_out < Float(2.800000) 345
+LEAF Float(-0.423979)
+LEAF Float(-0.766379)
+NODE R:SylStructure.parent.syl_break = String(1) 352
+NODE R:SylStructure.parent.parent.gpos = String(to) 349
+LEAF Float(-0.792895)
+NODE ph_vlng = String(l) 351
+LEAF Float(-0.276816)
+LEAF Float(-0.523721)
+NODE R:SylStructure.parent.syl_out < Float(3.600000) 356
+NODE R:SylStructure.parent.position_type = String(initial) 355
+LEAF Float(-0.488102)
+LEAF Float(-0.731758)
+LEAF Float(-0.822229)
+NODE n.ph_ctype = String(r) 371
+NODE R:SylStructure.parent.position_type = String(initial) 364
+NODE p.ph_vlng = String(a) 361
+LEAF Float(1.023340)
+NODE ph_ctype = String(s) 363
+LEAF Float(0.536277)
+LEAF Float(0.138201)
+NODE R:SylStructure.parent.sub_phrases < Float(1.100000) 368
+NODE R:SylStructure.parent.syl_out < Float(3.300000) 367
+LEAF Float(-0.234710)
+LEAF Float(-0.525292)
+NODE n.n.ph_vfront = String(1) 370
+LEAF Float(0.417485)
+LEAF Float(-0.078200)
+NODE p.p.ph_vfront = String(0) 417
+NODE ph_ctype = String(f) 382
+NODE n.ph_ctype = String(s) 379
+NODE R:SylStructure.parent.parent.gpos = String(content) 378
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(0) 377
+LEAF Float(-0.569410)
+LEAF Float(-0.289362)
+LEAF Float(-0.092104)
+NODE p.ph_vlng = String(s) 381
+LEAF Float(0.139463)
+LEAF Float(-0.070872)
+NODE ph_vlng = String(s) 386
+NODE ph_vheight = String(1) 385
+LEAF Float(-0.618971)
+LEAF Float(-0.840495)
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(1.200000) 416
+NODE pos_in_syl < Float(1.200000) 405
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 390
+LEAF Float(0.009134)
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 396
+NODE ph_vheight = String(2) 393
+LEAF Float(-0.512523)
+NODE R:SylStructure.parent.position_type = String(initial) 395
+LEAF Float(0.121704)
+LEAF Float(-0.256370)
+NODE R:SylStructure.parent.syl_out < Float(3.100000) 400
+NODE n.ph_ctype = String(s) 399
+LEAF Float(-0.474522)
+LEAF Float(-0.247206)
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 404
+NODE R:SylStructure.parent.position_type = String(final) 403
+LEAF Float(-0.597866)
+LEAF Float(-0.407765)
+LEAF Float(-0.741256)
+NODE ph_ctype = String(s) 409
+NODE n.ph_ctype = String(s) 408
+LEAF Float(-1.084260)
+LEAF Float(-0.397890)
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 413
+NODE R:SylStructure.parent.sub_phrases < Float(2.600000) 412
+LEAF Float(-0.666011)
+LEAF Float(-0.499492)
+NODE ph_ctype = String(r) 415
+LEAF Float(-0.253186)
+LEAF Float(-0.372832)
+LEAF Float(-0.093649)
+NODE R:SylStructure.parent.position_type = String(final) 419
+LEAF Float(-0.249982)
+NODE R:SylStructure.parent.syl_out < Float(3.200000) 421
+LEAF Float(0.180860)
+LEAF Float(-0.040291)
+NODE R:SylStructure.parent.syl_out < Float(2.400000) 674
+NODE R:SylStructure.parent.syl_out < Float(0.200000) 533
+NODE seg_onsetcoda = String(coda) 510
+NODE ph_ctype = String(s) 439
+NODE R:SylStructure.parent.syl_break = String(4) 430
+NODE p.p.ph_vlng = String(0) 429
+LEAF Float(1.632030)
+LEAF Float(0.994933)
+NODE n.ph_ctype = String(0) 434
+NODE R:SylStructure.parent.syl_break = String(2) 433
+LEAF Float(0.214457)
+LEAF Float(0.730381)
+NODE p.p.ph_vfront = String(0) 438
+NODE seg_coda_fric = String(0) 437
+LEAF Float(-0.336221)
+LEAF Float(0.468302)
+LEAF Float(-0.799121)
+NODE n.ph_ctype = String(f) 455
+NODE ph_ctype = String(f) 442
+LEAF Float(0.030061)
+NODE ph_vlng = String(d) 444
+LEAF Float(1.164900)
+NODE ph_ctype = String(0) 450
+NODE R:SylStructure.parent.asyl_in < Float(1.200000) 447
+LEAF Float(2.266800)
+NODE ph_vheight = String(1) 449
+LEAF Float(1.503750)
+LEAF Float(2.079270)
+NODE R:SylStructure.parent.sub_phrases < Float(1.100000) 452
+LEAF Float(1.102430)
+NODE R:SylStructure.parent.syl_break = String(2) 454
+LEAF Float(1.843200)
+LEAF Float(1.598530)
+NODE n.ph_ctype = String(0) 477
+NODE ph_ctype = String(n) 460
+NODE R:SylStructure.parent.syl_break = String(2) 459
+LEAF Float(1.129270)
+LEAF Float(0.442376)
+NODE R:SylStructure.parent.syl_break = String(4) 466
+NODE R:SylStructure.parent.position_type = String(final) 465
+NODE ph_ctype = String(f) 464
+LEAF Float(1.765080)
+LEAF Float(0.748600)
+LEAF Float(2.308260)
+NODE ph_ctype = String(0) 468
+LEAF Float(1.699170)
+NODE n.n.ph_vfront = String(1) 470
+LEAF Float(1.311280)
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 474
+NODE n.n.ph_vheight = String(0) 473
+LEAF Float(0.212421)
+LEAF Float(0.653094)
+NODE p.ph_ctype = String(0) 476
+LEAF Float(1.258020)
+LEAF Float(0.777568)
+NODE ph_ctype = String(f) 481
+NODE p.ph_ctype = String(0) 480
+LEAF Float(0.163941)
+LEAF Float(-0.167063)
+NODE R:SylStructure.parent.position_type = String(final) 499
+NODE n.ph_ctype = String(n) 490
+NODE R:SylStructure.parent.last_accent < Float(0.500000) 487
+NODE R:SylStructure.parent.sub_phrases < Float(2.800000) 486
+LEAF Float(-0.000859)
+LEAF Float(0.273433)
+NODE R:SylStructure.parent.parent.word_numsyls < Float(2.400000) 489
+LEAF Float(1.056940)
+LEAF Float(0.244916)
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 496
+NODE p.ph_ctype = String(0) 493
+LEAF Float(1.211870)
+NODE R:SylStructure.parent.syl_break = String(2) 495
+LEAF Float(0.598650)
+LEAF Float(1.163400)
+NODE seg_coda_fric = String(0) 498
+LEAF Float(0.292935)
+LEAF Float(0.925740)
+NODE ph_vlng = String(s) 503
+NODE R:SylStructure.parent.syl_break = String(2) 502
+LEAF Float(1.234840)
+LEAF Float(2.020080)
+NODE ph_ctype = String(0) 509
+NODE p.ph_ctype = String(r) 506
+LEAF Float(0.697089)
+NODE R:SylStructure.parent.syl_break = String(2) 508
+LEAF Float(0.992197)
+LEAF Float(1.510930)
+LEAF Float(0.520952)
+NODE p.ph_vlng = String(0) 528
+NODE pos_in_syl < Float(0.700000) 525
+NODE R:SylStructure.parent.position_type = String(final) 518
+NODE ph_ctype = String(r) 515
+LEAF Float(0.185827)
+NODE ph_ctype = String(s) 517
+LEAF Float(0.033230)
+LEAF Float(-0.534917)
+NODE ph_ctype = String(s) 520
+LEAF Float(0.575107)
+NODE p.ph_ctype = String(f) 522
+LEAF Float(-0.111275)
+NODE R:SylStructure.parent.last_accent < Float(0.300000) 524
+LEAF Float(0.094470)
+LEAF Float(0.381947)
+NODE p.ph_ctype = String(f) 527
+LEAF Float(-0.490108)
+LEAF Float(-0.201268)
+NODE ph_ctype = String(s) 530
+LEAF Float(1.203970)
+NODE R:SylStructure.parent.last_accent < Float(1.200000) 532
+LEAF Float(0.636568)
+LEAF Float(1.077630)
+NODE pos_in_syl < Float(1.300000) 625
+NODE R:SylStructure.parent.syl_break = String(0) 586
+NODE pos_in_syl < Float(0.100000) 563
+NODE R:SylStructure.parent.position_type = String(initial) 556
+NODE p.ph_ctype = String(n) 539
+LEAF Float(-0.016336)
+NODE ph_ctype = String(s) 545
+NODE n.ph_ctype = String(r) 542
+LEAF Float(1.072530)
+NODE p.ph_vlng = String(0) 544
+LEAF Float(0.525806)
+LEAF Float(0.952792)
+NODE p.ph_vlng = String(0) 553
+NODE seg_onsetcoda = String(coda) 548
+LEAF Float(0.469117)
+NODE p.ph_ctype = String(f) 550
+LEAF Float(-0.071645)
+NODE ph_ctype = String(f) 552
+LEAF Float(0.457137)
+LEAF Float(0.102492)
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 555
+LEAF Float(0.697337)
+LEAF Float(0.375114)
+NODE ph_vheight = String(1) 558
+LEAF Float(0.410671)
+NODE R:SylStructure.parent.asyl_in < Float(0.800000) 560
+LEAF Float(-0.331055)
+NODE p.ph_ctype = String(s) 562
+LEAF Float(-0.240616)
+LEAF Float(-0.019127)
+NODE ph_vheight = String(3) 567
+NODE p.ph_ctype = String(s) 566
+LEAF Float(0.556537)
+LEAF Float(0.153892)
+NODE seg_onsetcoda = String(coda) 583
+NODE n.ph_ctype = String(0) 572
+NODE R:SylStructure.parent.parent.word_numsyls < Float(3.400000) 571
+LEAF Float(0.123242)
+LEAF Float(0.295753)
+NODE seg_coda_fric = String(0) 580
+NODE R:SylStructure.parent.parent.word_numsyls < Float(2.400000) 577
+NODE ph_vheight = String(1) 576
+LEAF Float(-0.341018)
+LEAF Float(-0.008931)
+NODE n.n.ph_vfront = String(2) 579
+LEAF Float(-0.744625)
+LEAF Float(-0.302803)
+NODE p.ph_vlng = String(0) 582
+LEAF Float(0.113815)
+LEAF Float(-0.128733)
+NODE ph_ctype = String(r) 585
+LEAF Float(-0.854509)
+LEAF Float(-0.216179)
+NODE n.ph_ctype = String(f) 594
+NODE ph_vlng = String(0) 589
+LEAF Float(0.461950)
+NODE R:SylStructure.parent.syl_codasize < Float(1.300000) 591
+LEAF Float(0.657169)
+NODE p.p.ph_vlng = String(0) 593
+LEAF Float(1.082220)
+LEAF Float(1.462570)
+NODE p.ph_vlng = String(l) 596
+LEAF Float(0.785204)
+NODE p.ph_vlng = String(a) 600
+NODE R:SylStructure.parent.position_type = String(final) 599
+LEAF Float(0.321168)
+LEAF Float(0.950834)
+NODE ph_vlng = String(0) 614
+NODE pos_in_syl < Float(0.100000) 611
+NODE R:SylStructure.parent.position_type = String(final) 604
+LEAF Float(-0.167374)
+NODE n.n.ph_vheight = String(0) 610
+NODE p.ph_ctype = String(f) 607
+LEAF Float(-0.003744)
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 609
+LEAF Float(0.228448)
+LEAF Float(0.504252)
+LEAF Float(0.736476)
+NODE R:SylStructure.parent.position_type = String(final) 613
+LEAF Float(0.059097)
+LEAF Float(-0.431535)
+NODE n.ph_ctype = String(0) 616
+LEAF Float(1.006420)
+NODE ph_vlng = String(s) 620
+NODE R:SylStructure.parent.asyl_in < Float(1.400000) 619
+LEAF Float(0.481652)
+LEAF Float(0.749861)
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 624
+NODE R:SylStructure.parent.position_type = String(final) 623
+LEAF Float(0.069631)
+LEAF Float(0.552212)
+LEAF Float(-0.047922)
+NODE ph_ctype = String(s) 639
+NODE n.ph_ctype = String(s) 628
+LEAF Float(-1.060900)
+NODE p.ph_ctype = String(n) 630
+LEAF Float(-0.599330)
+NODE n.ph_ctype = String(r) 632
+LEAF Float(0.006987)
+NODE n.ph_ctype = String(0) 636
+NODE R:SylStructure.parent.position_type = String(initial) 635
+LEAF Float(-0.064904)
+LEAF Float(-0.248899)
+NODE R:SylStructure.parent.sub_phrases < Float(1.400000) 638
+LEAF Float(-0.601987)
+LEAF Float(-0.302401)
+NODE ph_ctype = String(f) 653
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 648
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 645
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 644
+LEAF Float(0.164636)
+LEAF Float(-0.098905)
+NODE n.n.ph_vfront = String(2) 647
+LEAF Float(-0.316836)
+LEAF Float(-0.096119)
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 652
+NODE p.ph_ctype = String(s) 651
+LEAF Float(-0.429437)
+LEAF Float(-0.065274)
+LEAF Float(-0.635089)
+NODE p.ph_ctype = String(r) 657
+NODE R:SylStructure.parent.syl_out < Float(1.100000) 656
+LEAF Float(0.013936)
+LEAF Float(-0.454845)
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 667
+NODE ph_ctype = String(l) 660
+LEAF Float(0.809091)
+NODE R:SylStructure.parent.position_type = String(initial) 664
+NODE ph_ctype = String(n) 663
+LEAF Float(-0.277092)
+LEAF Float(0.281001)
+NODE p.ph_ctype = String(0) 666
+LEAF Float(0.699145)
+LEAF Float(0.241873)
+NODE R:SylStructure.parent.syl_break = String(0) 671
+NODE ph_ctype = String(n) 670
+LEAF Float(-0.470784)
+LEAF Float(-0.072112)
+NODE n.ph_ctype = String(s) 673
+LEAF Float(0.073349)
+LEAF Float(0.608371)
+NODE pos_in_syl < Float(0.700000) 744
+NODE p.ph_vlng = String(0) 725
+NODE R:SylStructure.parent.position_type = String(mid) 682
+NODE ph_ctype = String(0) 681
+NODE ph_vheight = String(2) 680
+LEAF Float(-0.293282)
+LEAF Float(-0.081611)
+LEAF Float(-0.504024)
+NODE ph_ctype = String(s) 692
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 685
+LEAF Float(0.983950)
+NODE R:SylStructure.parent.position_type = String(single) 687
+LEAF Float(0.634789)
+NODE R:SylStructure.parent.syl_out < Float(4.400000) 689
+LEAF Float(0.479029)
+NODE R:SylStructure.parent.asyl_in < Float(0.400000) 691
+LEAF Float(0.143214)
+LEAF Float(0.406834)
+NODE n.ph_ctype = String(n) 696
+NODE R:SylStructure.parent.last_accent < Float(0.600000) 695
+LEAF Float(-0.415599)
+LEAF Float(0.110288)
+NODE seg_onsetcoda = String(coda) 704
+NODE n.n.ph_vfront = String(2) 699
+LEAF Float(0.031419)
+NODE n.ph_ctype = String(f) 701
+LEAF Float(0.693893)
+NODE R:SylStructure.parent.syl_out < Float(6.000000) 703
+LEAF Float(0.215675)
+LEAF Float(0.574068)
+NODE R:SylStructure.parent.position_type = String(final) 706
+LEAF Float(-0.458142)
+NODE R:SylStructure.parent.sub_phrases < Float(2.800000) 718
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 709
+LEAF Float(0.304628)
+NODE ph_ctype = String(n) 711
+LEAF Float(-0.230940)
+NODE R:SylStructure.parent.asyl_in < Float(1.200000) 717
+NODE ph_ctype = String(f) 716
+NODE R:SylStructure.parent.last_accent < Float(0.500000) 715
+LEAF Float(0.326954)
+LEAF Float(-0.100616)
+LEAF Float(-0.091913)
+LEAF Float(0.219053)
+NODE R:SylStructure.parent.position_type = String(initial) 722
+NODE ph_ctype = String(f) 721
+LEAF Float(0.216118)
+LEAF Float(-0.008341)
+NODE ph_ctype = String(f) 724
+LEAF Float(0.761763)
+LEAF Float(0.332721)
+NODE ph_vheight = String(0) 741
+NODE p.ph_vlng = String(s) 728
+LEAF Float(0.217178)
+NODE n.ph_ctype = String(r) 730
+LEAF Float(1.294510)
+NODE n.ph_ctype = String(0) 740
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 739
+NODE R:SylStructure.parent.sub_phrases < Float(4.000000) 738
+NODE seg_coda_fric = String(0) 737
+NODE p.ph_vlng = String(l) 736
+LEAF Float(0.945261)
+LEAF Float(0.687498)
+LEAF Float(0.403076)
+LEAF Float(1.002550)
+LEAF Float(1.091130)
+LEAF Float(0.209045)
+NODE ph_vheight = String(2) 743
+LEAF Float(-0.054407)
+LEAF Float(0.256045)
+NODE n.ph_ctype = String(f) 768
+NODE ph_ctype = String(s) 749
+NODE p.ph_vlng = String(0) 748
+LEAF Float(-0.967300)
+LEAF Float(-0.351397)
+NODE ph_ctype = String(f) 751
+LEAF Float(-0.623300)
+NODE R:SylStructure.parent.syl_break = String(0) 761
+NODE p.ph_ctype = String(s) 754
+LEAF Float(0.266234)
+NODE p.ph_ctype = String(r) 756
+LEAF Float(-0.302281)
+NODE R:SylStructure.parent.sub_phrases < Float(2.700000) 760
+NODE ph_ctype = String(0) 759
+LEAF Float(-0.010244)
+LEAF Float(-0.274514)
+LEAF Float(0.048218)
+NODE ph_vlng = String(s) 763
+LEAF Float(0.888495)
+NODE ph_ctype = String(n) 765
+LEAF Float(0.653018)
+NODE R:SylStructure.parent.sub_phrases < Float(2.200000) 767
+LEAF Float(0.061289)
+LEAF Float(0.346637)
+NODE R:SylStructure.parent.syl_codasize < Float(1.400000) 778
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.300000) 773
+NODE R:SylStructure.parent.position_type = String(initial) 772
+LEAF Float(0.041181)
+LEAF Float(0.613305)
+NODE pos_in_syl < Float(1.200000) 777
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(1) 776
+LEAF Float(0.175467)
+LEAF Float(-0.276407)
+LEAF Float(-0.550878)
+NODE pos_in_syl < Float(3.400000) 874
+NODE seg_onsetcoda = String(coda) 869
+NODE ph_ctype = String(r) 786
+NODE n.ph_ctype = String(s) 783
+LEAF Float(-0.240328)
+NODE p.ph_ctype = String(0) 785
+LEAF Float(0.330352)
+LEAF Float(-0.081668)
+NODE ph_ctype = String(l) 790
+NODE n.ph_ctype = String(0) 789
+LEAF Float(0.383533)
+LEAF Float(-0.324515)
+NODE ph_vheight = String(3) 800
+NODE ph_vlng = String(d) 793
+LEAF Float(-0.624870)
+NODE n.ph_ctype = String(r) 795
+LEAF Float(-0.513869)
+NODE R:SylStructure.parent.position_type = String(initial) 799
+NODE R:SylStructure.parent.parent.word_numsyls < Float(2.400000) 798
+LEAF Float(0.207874)
+LEAF Float(-0.020471)
+LEAF Float(0.397372)
+NODE n.ph_ctype = String(r) 810
+NODE p.ph_ctype = String(0) 807
+NODE pos_in_syl < Float(1.200000) 804
+LEAF Float(0.271734)
+NODE n.n.ph_vheight = String(0) 806
+LEAF Float(-0.261466)
+LEAF Float(-0.009566)
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 809
+LEAF Float(-0.381895)
+LEAF Float(-0.089877)
+NODE n.n.ph_vfront = String(2) 820
+NODE ph_ctype = String(s) 813
+LEAF Float(-1.126260)
+NODE n.ph_ctype = String(s) 819
+NODE ph_vlng = String(0) 818
+NODE R:SylStructure.parent.sub_phrases < Float(2.400000) 817
+LEAF Float(-0.906926)
+LEAF Float(-0.625651)
+LEAF Float(-0.385089)
+LEAF Float(-0.359702)
+NODE p.ph_vlng = String(a) 824
+NODE p.ph_ctype = String(0) 823
+LEAF Float(0.216904)
+LEAF Float(-0.394349)
+NODE p.ph_ctype = String(r) 828
+NODE R:SylStructure.parent.syl_break = String(0) 827
+LEAF Float(-0.860573)
+LEAF Float(-0.510488)
+NODE ph_vlng = String(0) 858
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 849
+NODE seg_onset_stop = String(0) 844
+NODE R:SylStructure.parent.syl_break = String(0) 841
+NODE p.ph_vlng = String(d) 834
+LEAF Float(0.010843)
+NODE ph_ctype = String(s) 836
+LEAF Float(-0.035054)
+NODE ph_ctype = String(f) 840
+NODE p.ph_vlng = String(s) 839
+LEAF Float(-0.179727)
+LEAF Float(-0.297341)
+LEAF Float(-0.542602)
+NODE ph_ctype = String(s) 843
+LEAF Float(-0.604960)
+LEAF Float(-0.432058)
+NODE R:SylStructure.parent.syl_out < Float(4.400000) 846
+LEAF Float(-0.389079)
+NODE ph_ctype = String(s) 848
+LEAF Float(-0.735640)
+LEAF Float(-0.605444)
+NODE R:SylStructure.parent.R:Syllable.p.syl_break = String(2) 851
+LEAF Float(-0.827377)
+NODE ph_ctype = String(n) 853
+LEAF Float(-0.275338)
+NODE R:SylStructure.parent.syl_break = String(0) 855
+LEAF Float(-0.802801)
+NODE R:SylStructure.parent.syl_codasize < Float(2.200000) 857
+LEAF Float(-0.371234)
+LEAF Float(-0.772883)
+NODE pos_in_syl < Float(1.200000) 866
+NODE R:SylStructure.parent.syl_break = String(0) 865
+NODE n.ph_ctype = String(n) 862
+LEAF Float(-0.655006)
+NODE R:SylStructure.parent.syl_out < Float(4.400000) 864
+LEAF Float(-0.303751)
+LEAF Float(-0.456882)
+LEAF Float(-0.133182)
+NODE seg_onset_stop = String(0) 868
+LEAF Float(0.114442)
+LEAF Float(-0.167545)
+NODE ph_ctype = String(r) 871
+LEAF Float(-0.876950)
+NODE R:SylStructure.parent.R:Syllable.n.syl_onsetsize < Float(0.200000) 873
+LEAF Float(-0.640572)
+LEAF Float(-0.321322)
+LEAF Float(-0.925472)

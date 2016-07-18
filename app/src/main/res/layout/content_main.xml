@@ -14,10 +14,24 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
-
+        android:layout_height="300dp"
+        android:text="Welcome to the world of speech synthesis!"
         android:id="@+id/editText"
+        android:gravity="top"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTS EN API 200 character limit"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

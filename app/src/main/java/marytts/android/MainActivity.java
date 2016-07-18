@@ -1,5 +1,6 @@
 package marytts.android;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,8 +9,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.ImageButton;
+
+import com.marytts.android.link.MaryLink;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText ttsText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +25,22 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        ttsText = (EditText) findViewById(R.id.editText);
+
+        MaryLink.load(this, this.getResources());
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                MaryLink.getInstance().startButton(ttsText.getText().toString());
+                if (MaryLink.getInstance() != null)
+                    Snackbar.make(view, "Speaking <))", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
             }
         });
+
+
     }
 
     @Override
@@ -44,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+            startActivity(intent);
             return true;
         }
 
