@@ -87,7 +87,7 @@ class XPathFactoryFinder {
         // Use try/catch block to support applets
         try {
             debug = ss.getSystemProperty("jaxp.debug") != null;
-        } catch (Exception _) {
+        } catch (Exception ex) {
             debug = false;
         }
     }
@@ -181,7 +181,7 @@ class XPathFactoryFinder {
                 debugPrintln("using thread context class loader (" + classLoader + ") for search");
                 return;
             }
-        } catch (Throwable _) {
+        } catch (Throwable ex) {
             // getContextClassLoader() undefined in JDK1.1
         }
 
