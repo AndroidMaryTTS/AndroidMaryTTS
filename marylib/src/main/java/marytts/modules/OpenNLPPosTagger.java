@@ -32,7 +32,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import marytts.android.lib.R;
 import marytts.datatypes.MaryData;
 import marytts.datatypes.MaryDataType;
 import marytts.datatypes.MaryXML;
@@ -83,7 +82,8 @@ public class OpenNLPPosTagger extends InternalModule {
         Log.d(Mary.LOG, "*** " + propertyPrefix + "model");
 
 
-        InputStream modelStream = MaryLink.getResourcesM().openRawResource(R.raw.maxent);
+      //  InputStream modelStream = MaryLink.getResourcesM().openRawResource(R.raw.maxent);
+        InputStream modelStream = MaryLink.getContext().getAssets().open("raw/maxent.bin");
         InputStream posMapperStream = null;
 
         try {

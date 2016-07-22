@@ -26,15 +26,14 @@ import marytts.server.Mary;
 public class MaryLink {
 
     private static MaryLink instance = null;
-    protected MaryLink(Context context, Resources resources) {
+    protected MaryLink(Context context) {
         mContext = context;
-        mResources = resources;
         loadConfigs();
     }
 
-    public static void load(Context context, Resources resources) {
+    public static void load(Context context) {
         if(instance == null) {
-            instance = new MaryLink(context, resources);
+            instance = new MaryLink(context);
         }
     }
 
@@ -54,7 +53,6 @@ public class MaryLink {
 
 
     private static Context mContext;
-    private static Resources mResources;
 
     private  MaryInterface marytts;
 
@@ -69,9 +67,6 @@ public class MaryLink {
         return mContext;
     }
 
-    public static Resources getResourcesM() {
-        return mResources;
-    }
 
     public static HashMap<String, String> getProperties() {
         return properties;
@@ -81,7 +76,7 @@ public class MaryLink {
 
 
 
-    public void startButton(final String text) {
+    public void startTTS(final String text) {
         m_stop = false;
 
         if (text != null && !text.isEmpty()) {
@@ -125,7 +120,7 @@ public class MaryLink {
     }
 
 
-    public void stopPlayer() {
+    public void stopTTS() {
         m_stop = true;
         if (audioTrack != null) {
             audioTrack.stop();

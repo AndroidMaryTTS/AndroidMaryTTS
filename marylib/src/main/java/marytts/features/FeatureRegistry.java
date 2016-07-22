@@ -19,7 +19,8 @@
 
 package marytts.features;
 
-import org.apache.commons.collections.map.MultiKeyMap;
+
+import org.apache.commons.collections4.map.MultiKeyMap;
 
 import java.util.Collection;
 import java.util.Comparator;

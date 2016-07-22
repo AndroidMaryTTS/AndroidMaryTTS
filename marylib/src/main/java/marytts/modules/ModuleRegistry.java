@@ -20,7 +20,8 @@ package marytts.modules;
 
 import android.util.Log;
 
-import org.apache.commons.collections.map.MultiKeyMap;
+
+import org.apache.commons.collections4.map.MultiKeyMap;
 
 import java.util.ArrayList;
 import java.util.Collections;

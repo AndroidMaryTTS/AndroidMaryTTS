@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.ImageButton;
 
 import com.marytts.android.link.MaryLink;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,16 +24,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         ttsText = (EditText) findViewById(R.id.editText);
-
-        MaryLink.load(this, this.getResources());
+        MaryLink.load(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MaryLink.getInstance().startButton(ttsText.getText().toString());
+                MaryLink.getInstance().startTTS(ttsText.getText().toString());
                 if (MaryLink.getInstance() != null)
                     Snackbar.make(view, "Speaking <))", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
