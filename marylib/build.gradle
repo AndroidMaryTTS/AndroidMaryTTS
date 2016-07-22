@@ -48,4 +48,6 @@ dependencies {
     compile 'org.apache.logging.log4j:log4j:2.6.2'
     compile 'net.sf.jwordnet:jwnl:1.4_rc3'
     compile 'org.apache.commons:commons-collections4:4.1'
+    compile 'org.apache.httpcomponents:httpcore-nio:4.4.5'
+    compile 'org.apache.httpcomponents:httpcore:4.4.5'
 }
