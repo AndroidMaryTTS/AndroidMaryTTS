@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Android MaryTTS by AndroidMaryTTS</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Android MaryTTS</h1>
+          <h2>Android MARY TTS - an open-source, offline HMM-Based text-to-speech synthesis system based on MaryTTS</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/AndroidMaryTTS/AndroidMaryTTS/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/AndroidMaryTTS/AndroidMaryTTS/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/AndroidMaryTTS/AndroidMaryTTS" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="androidmarytts" class="anchor" href="#androidmarytts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AndroidMaryTTS</h1>
+
+<p>AndroidMaryTTS is an open source Android offline text to speech application, built on top of MaryTTS. Can use own HMM-based voice in any android application with using this lib. Just need only generated HMM-voice file. Just create your own hmm-based voice model with using MaryTTS and share with us. In final listen yourself as tts speaker with using our lib. </p>
+
+<h1>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development</h1>
+
+<p>You would need Android Studio for development, other IDEs not yet supported.</p>
+
+<h1>
+<a id="plan" class="anchor" href="#plan" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plan</h1>
+
+<h4>
+<a id="will-do-significant-refactoring-and-modifications-the-core-code-marytts" class="anchor" href="#will-do-significant-refactoring-and-modifications-the-core-code-marytts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Will do significant refactoring and modifications the core code MaryTTS</h4>
+
+<ol>
+<li>Create new android app and add Marytts core code as module <g-emoji alias="+1" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji>
+</li>
+<li>Change or refactor marytts source files to support android OS <g-emoji alias="+1" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji>
+</li>
+<li>Publishing Gradle AndroidMaryTTS library to jCenter and maven repository <g-emoji alias="+1" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji>
+</li>
+<li>Adding Russian language as supporting languages</li>
+<li>Marytts Android client <a href="https://github.com/AndroidMaryTTS/AndroidMaryTTS-Client">demo</a> <g-emoji alias="+1" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji>
+</li>
+<li>Creating TTS engine using AndroidMaryTTS</li>
+<li>Optimising AndroidMaryTTS module and make more user friendly module</li>
+</ol>
+
+<h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<ul>
+<li>Android SDK v23</li>
+<li>Android Build Tools v23</li>
+</ul>
+
+<h1>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h1>
+
+<p>1) Add below script to build.gradle(app) file : </p>
+
+<pre><code>  android {
+        defaultConfig {
+                multiDexEnabled true
+                packagingOptions {
+                    exclude 'META-INF/LICENSE.txt'
+                    exclude 'META-INF/NOTICE.txt'
+                    exclude 'META-INF/LICENSE'
+                    exclude 'META-INF/NOTICE'
+                    exclude 'META-INF/DEPENDENCIES'
+                  }
+        }
+  }
+</code></pre>
+
+<p>2) Also, other one to build.gradle (module) where tts will use : </p>
+
+<pre><code>    dependencies {
+        compile 'com.marytts.android:marylib:1.0.1'
+    }
+</code></pre>
+
+<p>3) Load code marytts-android voise and language models on startup your project. It takes a few seconds. But in future will be so fast : </p>
+
+<pre><code>    MaryLink.load(Context context); 
+</code></pre>
+
+<p>4) Last one to speak or stop what you write : </p>
+
+<pre><code>    MaryLink.getInstance().startTTS(text);
+
+    MaryLink.getInstance().stopTTS();
+</code></pre>
+
+<h1>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note</h1>
+
+<p>After testing our lib don't forget write your reaction. </p>
+        </section>
+
+        <footer>
+          Android MaryTTS is maintained by <a href="https://github.com/AndroidMaryTTS">AndroidMaryTTS</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
