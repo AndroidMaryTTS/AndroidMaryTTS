@@ -58,7 +58,7 @@ Prerequisites
 ```
  	MaryLink.getInstance().startTTS(text);
 	
-	MaryLink.getInstance().stopTTS(text);
+	MaryLink.getInstance().stopTTS();
 ```
 
 # Note
