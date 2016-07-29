@@ -14,8 +14,9 @@ You would need Android Studio for development, other IDEs not yet supported.
 2. Change or refactor marytts source files to support android OS :+1:
 3. Publishing Gradle AndroidMaryTTS library to jCenter and maven repository :+1:
 4. Adding Russian language as supporting languages
-5. Creating TTS engine using AndroidMaryTTS
-6. Optimising AndroidMaryTTS module and make more user friendly module
+5. Marytts Android clint [demo](https://github.com/AndroidMaryTTS/AndroidMaryTTS-Client) :+1:
+6. Creating TTS engine using AndroidMaryTTS
+7. Optimising AndroidMaryTTS module and make more user friendly module
 
 
 Prerequisites
