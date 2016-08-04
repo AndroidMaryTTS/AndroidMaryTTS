@@ -1,6 +1,6 @@
 # AndroidMaryTTS 
 
-AndroidMaryTTS is an open source Android offline text to speech application, built on top of MaryTTS. Can use own HMM-based voice in any android application with using this lib. Just need only generated HMM-voice file. Just create your own hmm-based voice model with using MaryTTS and share with us. In final listen yourself as tts speaker with using our lib. 
+AndroidMaryTTS is an open source Android offline text to speech application, built on top of MaryTTS. Can use own HMM-based voice in any android application with using this lib. Just need only generated HMM-voice file. Just create your own hmm-based voice model with using MaryTTS and share with us. In final listen yourself as tts speaker with using our lib. Already tested this lib with the version of android lollipop.
 
 # Development
 
