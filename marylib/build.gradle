@@ -1,16 +1,15 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'com.github.dcendents.android-maven'
+
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "24.0.0"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
 
 
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 23
+        targetSdkVersion 24
         multiDexEnabled true
         android {
             packagingOptions {
@@ -30,7 +29,7 @@ android {
     }
 
     dexOptions {
-        javaMaxHeapSize "2g"
+        javaMaxHeapSize "3g"
         preDexLibraries = false
     }
 
@@ -38,11 +37,11 @@ android {
 
 dependencies {
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:support-v4:24.2.1'
     compile 'org.apache.opennlp:opennlp-maxent:3.0.3'
     compile 'org.apache.opennlp:opennlp-uima:1.5.3'
     compile 'org.apache.opennlp:opennlp-tools:1.5.3'
-    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:multidex:1.0.1'
     compile 'com.ibm.icu:icu4j:57.1'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'org.apache.logging.log4j:log4j:2.6.2'
@@ -50,4 +49,23 @@ dependencies {
     compile 'org.apache.commons:commons-collections4:4.1'
     compile 'org.apache.httpcomponents:httpcore-nio:4.4.5'
     compile 'org.apache.httpcomponents:httpcore:4.4.5'
+}
+
+group = 'com.marytts.android'
+version = '1.0.1'
+
+task generateSourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier 'sources'
+}
+
+task generateJavaDocs(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath()
+            .join(File.pathSeparator))
+}
+
+task generateJavaDocsJar(type: Jar) {
+    from generateJavaDocs.destinationDir
+    classifier 'javadoc'
 }
