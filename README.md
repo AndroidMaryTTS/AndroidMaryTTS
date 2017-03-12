@@ -2,16 +2,6 @@
 
 AndroidMaryTTS is an open source Android **offline** text to speech application, built on top of MaryTTS. Can use **own** HMM-based voice in any android application with using this lib. Just need only generated **HMM-voice** file. Just create your own hmm-based voice model with using **MaryTTS** and share with us. In final listen yourself as tts speaker with using our lib. Already tested this lib with the version of android **lollipop**.
 
-# Development
-
-You would need Android Studio for development, other IDEs not yet supported.
-
-Prerequisites
---------------
-
-- Android SDK v23
-- Android Build Tools v23
-
 #How to use: 
 
 
@@ -47,9 +37,6 @@ Prerequisites
 	
 	MaryLink.getInstance().stopTTS();
 ```
-
-# Note
-  After testing our lib don't forget write your reaction. 
   
 # Plan 
 
@@ -62,3 +49,12 @@ Prerequisites
 5. Marytts Android client [demo](https://github.com/AndroidMaryTTS/AndroidMaryTTS-Client) :+1:
 6. Creating **TTS engine** using AndroidMaryTTS
 7. Optimising AndroidMaryTTS module and make more user friendly module
+
+
+#Contribute
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Added some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
