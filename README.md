@@ -51,7 +51,7 @@ AndroidMaryTTS is an open source Android **offline** text to speech application,
 7. Optimising AndroidMaryTTS module and make more user friendly module
 
 
-#Contribute
+# Contribute
 
 1. Fork it
 2. Create your feature branch (git checkout -b my-new-feature)
